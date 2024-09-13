@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div class="container">
+        <form action="#">
+          <div class="h1"><h1>Sign-up</h1></div>
+          <p></p>
+          <label for="fname">Your Name</label>
+          <input type="text" name="name" id="fname"
+          placeholder="Type your Name">
+
+          <label for="phone">Your Phone</label>
+          <input type="text" name="phone" id="phone"
+          placeholder="Type your Phone">
+
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Type your Email">
+    
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" placeholder="Type your Password">
+         
+          <div class="button">
+            <button name="btn">Sign-up</button>
+          </div>
+          
+        </form>
+         <!-- Overlay div for the submitting message -->
+          <div class="overlay" id="overlay">
+            <p id="overlay-message">Submitting...</p>
+          </div>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
